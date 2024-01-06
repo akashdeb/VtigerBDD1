@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="37.739" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="To Create a Lead" name="Create a Lead and verify" time="11.348">
+<system-out><![CDATA[
+Given The user has logged in to the application.............................passed
+When The user goes to the create lead module................................passed
+Then The user fills up the lead information.................................passed
+And The user verifies the lead informarion..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Creating Opportunity" name="To create an Opportunity and verify its details" time="26.219">
+<system-out><![CDATA[
+Given The user has created Organization.....................................passed
+And The user has created Campaign...........................................passed
+When The user Creates Opportunity...........................................passed
+Then The Opportunity details is verified....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
